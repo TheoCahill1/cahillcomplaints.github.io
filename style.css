@@ -1,0 +1,44 @@
+form{
+    align-items: center;
+    transform: translatey(256px);
+   }
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+form textarea {
+	height: 100px;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #eee;
+	padding: 20px;
+	text-align: center;
+    transform: translatey(423px);
+    min-height:81px;
+}
+
+h1{
+    text-align: center;
+}
